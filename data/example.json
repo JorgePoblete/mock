@@ -1,0 +1,19 @@
+[
+	{
+		"method":"POST",
+		"headers":{
+			"test" : "true"
+		},
+		"path":"/example/1",
+		"query":"query=true",
+		"body":"",
+		"response":
+		{
+			"StatusCode": 209,
+			"headers":{
+				"Content-Type": "application/json"
+			},
+			"body":"{\"text\":\"eeep\"}"
+		}
+	}
+]
