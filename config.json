@@ -1,0 +1,6 @@
+{
+	"Host": "localhost",
+	"Port": 8080,
+	"RequestsPath": "data/requests/",
+	"ResponsesPath": "data/responses/"
+}

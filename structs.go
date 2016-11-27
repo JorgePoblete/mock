@@ -1,9 +1,10 @@
-package structs
+package main
 
 type ConfigData struct {
-	Host      string
-	Port      int
-	MocksPath string
+	Host          string
+	Port          int
+	RequestsPath  string
+	ResponsesPath string
 }
 
 type RequestData struct {
@@ -11,7 +12,8 @@ type RequestData struct {
 	Headers  map[string]string
 	Path     string
 	Query    string
-	Body     string
+	Body     map[string]string
+	RawBody  string
 	Response ResponseData
 }
 

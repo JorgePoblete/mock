@@ -6,14 +6,16 @@
 		},
 		"path":"/example/1",
 		"query":"query=true",
-		"body":"",
+		"body":{
+		},
+		"rawbody":"",
 		"response":
 		{
-			"StatusCode": 209,
+			"statuscode": 209,
 			"headers":{
 				"Content-Type": "application/json"
 			},
-			"body":"{\"text\":\"eeep\"}"
+			"body":"example1"
 		}
 	}
 ]
